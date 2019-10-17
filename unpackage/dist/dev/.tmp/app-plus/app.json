@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "测试",
+    "navigationBarBackgroundColor": "#ED6648",
+    "backgroundColor": "#718457"
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "uniAppTest",
+  "compilerVersion": "2.3.3",
+  "usingComponents": {}
+}

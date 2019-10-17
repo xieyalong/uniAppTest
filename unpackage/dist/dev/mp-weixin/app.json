@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/my/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "测试",
+    "navigationBarBackgroundColor": "#ED6648",
+    "backgroundColor": "#718457"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3388FF",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/image/home2.png",
+        "selectedIconPath": "static/image/home1.png",
+        "text": "组件"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/image/wode2.png",
+        "selectedIconPath": "static/image/wode1.png",
+        "text": "接口"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
