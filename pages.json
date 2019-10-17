@@ -1,16 +1,56 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
+			"path": "pages/home/home",
+			"style": {//页面样式
+				//页面标题
+				"navigationBarTitleText": "home页面",
+				//页面的标题颜色
+				"navigationBarBackgroundColor":"#3388FF"
 			}
 		}
-	],
-	"globalStyle": {
+	    // ,{
+     //        "path" : "pages/home/home",
+     //        "style" : {}
+     //    }
+        ,{
+            "path" : "pages/my/my",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {//全局样式
+		//标题颜色
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		//没有效果
+		"navigationBarTitleText": "测试",
+		//状态颜色
+		"navigationBarBackgroundColor": "#ED6648",
+		//没有效果
+		"backgroundColor": "#718457"
+	},
+	"tabBar":{
+		// 默认颜色
+		    "color": "#7A7E83",
+			//选中的颜色
+		    "selectedColor": "#3388FF",
+		    "borderStyle": "black",
+		    "backgroundColor": "#ffffff",
+			 "list": [{
+					//页面
+			        "pagePath": "pages/home/home",
+					//默认图标
+			        "iconPath": "static/image/home2.png",
+					//选种的图标
+			        "selectedIconPath": "static/image/home1.png",
+			        "text": "组件"
+			    }, {
+			        "pagePath": "pages/my/my",
+			        "iconPath": "static/image/wode2.png",
+			        "selectedIconPath": "static/image/wode1.png",
+			        "text": "接口"
+			    }]
+		
 	}
+	
+	
 }

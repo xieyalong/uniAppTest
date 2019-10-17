@@ -13,5 +13,7 @@
 </script>
 
 <style>
-	/*每个页面公共css */
+	.red{
+		color: #007AFF;
+	}
 </style>
