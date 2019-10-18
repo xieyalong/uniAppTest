@@ -1,1 +1,1 @@
-<view class="content red">{{''+title+''}}</view>
+<view class="content red">{{''+title+"---"+age+''}}<view>年后</view></view>

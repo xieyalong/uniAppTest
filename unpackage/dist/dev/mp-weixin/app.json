@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/home/home",
     "pages/my/my"
   ],
@@ -14,19 +15,19 @@
     "color": "#7A7E83",
     "selectedColor": "#3388FF",
     "borderStyle": "black",
-    "backgroundColor": "#ffffff",
+    "backgroundColor": "#FF4081",
     "list": [
       {
         "pagePath": "pages/home/home",
         "iconPath": "static/image/home2.png",
         "selectedIconPath": "static/image/home1.png",
-        "text": "组件"
+        "text": "首页"
       },
       {
         "pagePath": "pages/my/my",
         "iconPath": "static/image/wode2.png",
         "selectedIconPath": "static/image/wode1.png",
-        "text": "接口"
+        "text": "我的"
       }
     ]
   },

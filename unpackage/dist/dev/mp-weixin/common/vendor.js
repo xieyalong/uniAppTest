@@ -8400,7 +8400,7 @@ module.exports = {"_from":"@dcloudio/uni-stat@next","_id":"@dcloudio/uni-stat@2.
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": { "navigationBarTitleText": "index页面", "navigationBarBackgroundColor": "#3388FF", "usingComponents": {} }, "pages/home/home": { "navigationBarTitleText": "home页面", "navigationBarBackgroundColor": "#3388FF", "usingComponents": {} }, "pages/my/my": { "usingComponents": {} } }, "globalStyle": { "navigationBarTextStyle": "black", "navigationBarTitleText": "测试", "navigationBarBackgroundColor": "#ED6648", "backgroundColor": "#718457" } };exports.default = _default;
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": { "navigationBarTitleText": "启动页", "navigationBarBackgroundColor": "#3388FF" }, "pages/home/home": {}, "pages/my/my": {} }, "globalStyle": { "navigationBarTextStyle": "black", "navigationBarTitleText": "测试", "navigationBarBackgroundColor": "#ED6648", "backgroundColor": "#718457" } };exports.default = _default;
 
 /***/ }),
 /* 8 */

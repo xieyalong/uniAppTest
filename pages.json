@@ -1,18 +1,18 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/home/home",
+			"path": "pages/index/class绑定数据",
 			"style": {//页面样式
 				//页面标题
-				"navigationBarTitleText": "home页面",
+				"navigationBarTitleText": "demo",
 				//页面的标题颜色
 				"navigationBarBackgroundColor":"#3388FF"
 			}
 		}
-	    // ,{
-     //        "path" : "pages/home/home",
-     //        "style" : {}
-     //    }
+	    ,{
+            "path" : "pages/home/home",
+            "style" : {}
+        }
         ,{
             "path" : "pages/my/my",
             "style" : {}
@@ -34,7 +34,8 @@
 			//选中的颜色
 		    "selectedColor": "#3388FF",
 		    "borderStyle": "black",
-		    "backgroundColor": "#ffffff",
+			//底部导航栏的背景颜色
+		    "backgroundColor": "#FF4081",
 			 "list": [{
 					//页面
 			        "pagePath": "pages/home/home",
@@ -42,12 +43,13 @@
 			        "iconPath": "static/image/home2.png",
 					//选种的图标
 			        "selectedIconPath": "static/image/home1.png",
-			        "text": "组件"
+					//首页
+			        "text": "首页"
 			    }, {
 			        "pagePath": "pages/my/my",
 			        "iconPath": "static/image/wode2.png",
 			        "selectedIconPath": "static/image/wode1.png",
-			        "text": "接口"
+			        "text": "我的"
 			    }]
 		
 	}
